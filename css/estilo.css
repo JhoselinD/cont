@@ -1,0 +1,142 @@
+.padre
+{
+    background-color:coral;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    /*justify-content: space-between;*/
+}
+.hijo1
+{
+    background-color: rgb(240, 204, 128);
+    border-style: solid;
+    border-color: black;
+    font-size: 30px;
+    grid-column: 1/5;
+}
+.hijo2
+{
+    background-color: rgb(197, 240, 128);
+    border-style: solid;
+    border-color: black;
+    font-size: 30px;
+    grid-column: 1/3;
+}
+.hijo3
+{
+    background-color: rgb(137, 240, 128);
+    border-style: solid;
+    border-color: black;
+    font-size: 30px;
+    grid-column: 3/4;
+}
+.hijo4
+{
+    background-color: rgb(128, 240, 147);
+    border-style: solid;
+    border-color: black;
+    font-size: 30px;
+    grid-column: 4/5;
+}
+.hijo5
+{
+    background-color: rgb(54, 160, 72);
+    border-style: solid;
+    border-color: black;
+    font-size: 30px;
+    grid-column: 1/2;
+}
+.hijo6
+{
+    background-color: rgb(128, 240, 221);
+    border-style: solid;
+    border-color: black;
+    font-size: 30px;
+    grid-column: 2/5;
+}
+.hijo7
+{
+    background-color: rgb(61, 135, 158);
+    border-style: solid;
+    border-color: black;
+    font-size: 30px;
+    grid-column: 1/3;
+}
+.hijo8
+{
+    background-color: rgb(145, 128, 240);
+    border-style: solid;
+    border-color: black;
+    font-size: 15px;
+    grid-column: 3/5;
+    grid-row: 4/5;
+    height: 27px;
+    /*align-self: end;*/
+}
+.hijo9
+{
+    background-color: rgb(121, 44, 223);
+    border-style: solid;
+    border-color: black;
+    font-size: px;
+    grid-column: 3/5;
+    grid-row: 4/5;
+    height: 27px;
+    align-self: end;
+}
+
+#header-wrapper {
+    margin-bottom: 50px; /* Ajusta el valor según tus necesidades */
+}
+
+.contenedor
+{
+    display: grid;
+    grid-template-columns: auto 25% 25% auto;
+    background-color: rgb(233, 63, 91);
+}
+.div
+{
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+    grid-column: 1/2;
+}
+.elemento1
+{
+    height: 150px;
+    border: black 1px solid;
+    margin: 20px;
+}
+
+.elemento2
+{
+    border: black 1px solid;
+    margin: 20px;
+    grid-column: 2/4;
+}
+.elemento3
+{
+    border: black 1px solid;
+    margin: 20px;
+}
+.elemento4
+{
+    border: black 1px solid;
+    margin: 10px;
+    grid-column: 2/4;
+    align-self: end;
+}
+.elemento5
+{
+    border: black 1px solid;
+    grid-column: 2/3;
+    width: 50%;
+}
+.elemento6
+{
+    border: black 1px solid;
+    grid-column:3/4;
+    width: 50%;
+    margin-left: 197px;
+}
